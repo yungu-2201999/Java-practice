@@ -3,6 +3,7 @@ package com.baidu;
 public class Outer {
    public void test1(A a){
        a.run();
+
    }
 
     public static void main(String[] args) {
@@ -14,7 +15,7 @@ public class Outer {
                     System.out.println("Outer.run");
                 }
             }
-    );Ï
+    );
     }
 }
 
